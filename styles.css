@@ -32,13 +32,13 @@ body {
   max-width: 1200px;   
   margin: 0 auto;      
 
-  padding: 15px 20px;
+  padding: 8px 20px;
 }
 .logo-img {
   font-family: 'Poppins', sans-serif;
   font-weight: 600;
   font-size: 20px;
-  height: 200px;
+  height: 45px;
   width: auto;
 }
 .nav-icons {
@@ -57,7 +57,7 @@ body {
   left: 50%;
   transform: translateX(-50%); 
 
-  display: none;
+  display: flex;
   list-style: none;
 }
 .top-content {
@@ -81,12 +81,12 @@ body {
     display: flex;
     gap: 25px;
     font-weight: 500;
+    font-size: 14px;
   }
 .nav-links li {
     cursor: pointer;
+    white-space: nowrap;
   }
-.menu-btn {
-    display: none;
-  }
+
 
 }
