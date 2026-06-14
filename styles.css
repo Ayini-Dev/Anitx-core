@@ -1,9 +1,7 @@
+
 body {
-    margin: 0;
-}
-.nav-left {
-  display: flex;
-  align-items: center;
+  margin: 0;
+  font-family: 'Inter', sans-serif;
 }
 .top-bar {
   background: linear-gradient(to right, #0a0f1c, #111827);
@@ -12,10 +10,10 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 8px;
+  gap: 6px;
 
-  font-size: 12px;
-  padding: 6px 10px;
+  font-size: 11px;
+  padding: 6px 8px;
 }
 .top-bar .highlight {
   color: #3b82f6;
@@ -25,53 +23,42 @@ body {
   border-bottom: 1px solid #eee;
 }
 .nav-container {
+  position: relative;
+
   display: flex;
   align-items: center;
   justify-content: space-between;
 
-  max-width: 1200px;   
-  margin: 0 auto;      
-
-  padding: 8px 20px;
+  padding: 6px 10px;
 }
 .logo-img {
-  font-family: 'Poppins', sans-serif;
-  font-weight: 600;
-  font-size: 20px;
-  height: 45px;
+  height: 50px;
   width: auto;
-}
-.nav-icons {
-  display: flex;
-  align-items: center;
-  gap: 15px;
-}
-.menu-btn {
-  font-size: 20px;
-  background: none;
-  border: none;
-  cursor: pointer;
 }
 .nav-links {
   position: absolute;
   left: 50%;
-  transform: translateX(-50%); 
+  transform: translateX(-50%);
 
   display: flex;
+  gap: 10px;
+
   list-style: none;
+  font-size: 12px;
 }
-.top-content {
+.nav-links li {
+  white-space: nowrap;
+}
+.nav-icons {
   display: flex;
   align-items: center;
-  justify-content: center;
-  gap: 8px;
+  gap: 10px;
 }
 .icon {
-  width: 18px;
-  height: 18px;
+  width: 16px;
+  height: 16px;
   cursor: pointer;
 }
-
 @media (min-width: 768px) {
 
 .nav-container {
